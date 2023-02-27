@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
+:root {
+    --primary-color : #0A1828;
+}
+
 body {
     font-family: 'Merriweather',
         serif;
 }
+
+/**Containers**/
 
 .container {
     padding-left: 1rem;
@@ -14,3 +20,27 @@ body {
     max-width : 600px;
     margin: auto;
 }
+
+/** Links **/
+
+.link{
+    text-decoration :none;
+    padding : 0.5rem 1rem ;
+}
+
+.link-primary {
+    background-color : var(--primary-color);
+    border-radius : 0.5rem;
+    color : white;
+}
+
+.link-secondary {
+    color : var(--primary-color);
+    border : 1px solid var(--primary-color);
+    border-radius : 0.5rem;
+}
+
+hr {
+    margin : 2rem 0rem;
+}
+
