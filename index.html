@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 
-    <link href = "styles.css" rel = "stylesheet">
+    <link href="styles.css" rel="stylesheet">
 
 </head>
 
@@ -16,7 +16,7 @@
 
     <p>I am attending neog.camp and I am making a Library which would make all my
         projects looks good and consistent . </p>
-    
+
     <p>This will have a <strong>bold</strong> text</p>
     <hr>
 
@@ -32,10 +32,10 @@
     <h2>@containers</h2>
 
     <h3>@fluid container</h3>
-    <div class = "container">This is fluid container and it will go to the end of the page</div>
+    <div class="container">This is fluid container and it will go to the end of the page</div>
 
     <h3>@center container</h3>
-    <div class = "container center-container">This is centered container and it will go to the specified width</div>
+    <div class="container center-container">This is centered container and it will go to the specified width</div>
 
     <hr>
 
@@ -48,7 +48,7 @@
     <h2>@lists</h2>
 
     <h3>@Unordered Lists</h3>
-    
+
     <p>This list will not contain bullet</p>
     <ul class="list-non-bullet">
         <li>item one</li>
@@ -76,20 +76,24 @@
 
     <h2>@nav</h2>
 
-    <div>iamBrand</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
+    <nav class="navigation">
 
-        <li>
-            <a href="/">products</a>
-        </li>
+        <div class="nav-brand">iamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link-active">
+                <a href="/" class="link">home</a>
+            </li>
 
-        <li>
-            <a href="/">about</a>
-        </li>
-    </ul>
+            <li class="list-item-inline">
+                <a href="/" class="link">products</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a href="/" class="link">about</a>
+            </li>
+        </ul>
+    </nav>
+
 
     <hr>
 
