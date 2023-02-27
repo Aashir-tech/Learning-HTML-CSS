@@ -4,3 +4,13 @@ body {
     font-family: 'Merriweather',
         serif;
 }
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1 rem;
+}
+
+.center-container {
+    max-width : 600px;
+    margin: auto;
+}
