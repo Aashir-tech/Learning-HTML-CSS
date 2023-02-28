@@ -37,6 +37,10 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+.link-active {
+    text-shadow:#fc0 1px 0 10px;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -60,6 +64,10 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+ol {
+    padding-inline-start: 0px;
+}
+
 
 /** Navigation **/
 
@@ -81,7 +89,7 @@ hr {
 }
 
 .navigation .link {
-    color: var(--text-color);
+    color :beige;
 }
 
 .navigation .link-active {
@@ -96,13 +104,21 @@ hr {
 
 
 .hero {
-    padding: 2 rem;
+    padding: 2rem;
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 2rem;
+}
+
+.hero .blogs-hero {
+    max-width:500px;
+    margin: auto;
+    display: block;
+    padding-top: 2rem;
 }
 
 .hero .hero-heading {
@@ -115,6 +131,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align : center;
 }
 
 .section h1 {
@@ -133,6 +150,13 @@ hr {
     padding: 2rem 1rem;
     color: var(--text-color);
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    color : var(--offwhite);
+    font-weight: bolder;
+    font-size :large ;
+     
 }
 
 .footer .link {
